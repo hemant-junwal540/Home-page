@@ -1,0 +1,91 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  /* margin: 0; */
+  background-color: #f8f9fa;
+}
+
+
+.branch-section {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+
+    
+  }
+  
+  .branch-section h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #003366;
+
+     background: linear-gradient(90deg, #004080, #0099cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+  }
+
+  .branch-section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 10px auto 0;
+  background-color: #0056b3;
+  transition: width 0.3s ease;
+}
+
+.branch-section h2:hover::after {
+  width: 120px;
+}
+
+.sub-heading {
+  font-size: 1rem;
+  color: #555;
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+
+
+  
+  .branch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    padding: 0 10px;
+  }
+  
+  .branch-card {
+    background-color: #ffffff;
+    padding: 25px 15px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .branch-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+    background-color: #E4EFE7;
+  }
+  
+  /* for icons below */
+  .branch-icon {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: #0056b3;
+    display: block;
+  }
+  
+ 
+
+  /* new try for not being plane */
+  
+  

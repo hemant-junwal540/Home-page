@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+     <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+</head>
+<body>
+    <section id="branch-selection" class="branch-section" data-aos="fade-up">
+        <!-- <h2 data-aos="fade-down">Select Your Branch</h2> -->
+        <h2 data-aos="fade-down">
+          <i class="fas fa-graduation-cap" style="color:#0056b3; margin-bottom: 10px;"></i><br>
+          Select Your Branch
+        </h2>
+        <p class="sub-heading" data-aos="fade-in" data-aos-delay="200">
+          Choose your stream to explore tailored content and progress tracking.
+        </p>
+        
+        
+        <div class="branch-grid">
+            <div class="branch-card">
+                <i class="fas fa-cogs branch-icon"></i>
+                Mechanical
+              </div>
+              <div class="branch-card">
+                <i class="fas fa-bolt branch-icon"></i>
+                Electrical
+              </div>
+              <div class="branch-card">
+                <i class="fas fa-microchip branch-icon"></i>
+                Electronics and Communication
+              </div>
+              <div class="branch-card">
+                <i class="fas fa-shield-alt branch-icon"></i>
+                Cyber Security
+              </div>
+              <div class="branch-card">
+                <i class="fas fa-network-wired branch-icon"></i>
+                Information Technology
+              </div>
+              <div class="branch-card">
+                <i class="fas fa-laptop-code branch-icon"></i>
+                Computer Science
+              </div>
+              <div class="branch-card">
+                <i class="fas fa-drafting-compass branch-icon"></i>
+                Civil
+              </div>
+              <div class="branch-card">
+                <i class="fas fa-gauge-high branch-icon"></i>
+                Electronics and Instrumentation
+              </div>
+              
+        </div>
+      </section>
+      <footer></footer>
+      
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init({
+  duration: 1200, // slightly slower
+  once: true,
+  easing: 'ease-out'
+});
+
+      </script>
+</body>
+</html>
